@@ -87,29 +87,4 @@ install(EXPORT ${LIB_NAME} DESTINATION ${CMAKE_INSTALL_LIBDIR})
 install(FILES ${HEADERS} DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/CUnit)
 install(FILES ${XSL_DTD} DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/CUnit)
 install(FILES ${CMAKE_CURRENT_LIST_DIR}/cunit-config.cmake DESTINATION ${CMAKE_INSTALL_LIBDIR})
-#install(EXPORT ${CMAKE_CURRENT_LIST_DIR}/cunit-config.cmake DESTINATION ${CMAKE_INSTALL_LIBDIR} FILE cunit-config.cmake)
 install(EXPORT ${LIB_NAME} DESTINATION ${CMAKE_INSTALL_LIBDIR} FILE cunit-config.cmake)
-
-#  ./include/CUnit
-# ./include/CUnit/CUnit_intl.h
-# ./include/CUnit/CUnit.h
-# find: ‘./local/bin/AppProtection/.config’: Permission denied
-# ./share/doc-base/libcunit1-doc.libcunit1
-# ./share/CUnit
-# ./share/CUnit/CUnit-List.xsl
-# ./share/CUnit/CUnit-List.dtd
-# ./share/CUnit/CUnit-Run.dtd
-# ./share/CUnit/CUnit-Run.xsl
-# ./share/doc/libcunit1-doc
-# ./share/doc/libcunit1-doc/html/CUnit_doc.css
-# ./share/doc/libcunit1-doc/html/headers/CUnit_intl.h
-# ./share/doc/libcunit1-doc/html/headers/CUnit.h.gz
-# ./share/doc/libcunit1-doc/examples/Demo_fprintf/CUnitExample.c
-# ./share/doc/libcunit1
-# ./share/doc/libcunit1-dev
-# ./share/man/man3/CUnit.3.gz
-# ./lib/x86_64-linux-gnu/libcunit.so.1.0.1
-# ./lib/x86_64-linux-gnu/libcunit.so
-# ./lib/x86_64-linux-gnu/libcunit.a
-# ./lib/x86_64-linux-gnu/libcunit.so.1
-# ./lib/x86_64-linux-gnu/pkgconfig/cunit.pc
